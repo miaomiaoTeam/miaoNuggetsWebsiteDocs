@@ -14,7 +14,7 @@ sidebar.push({
 		{ text: 'Hooks目录结构', link: '/docs/structures/hooks' },
 		{ text: '布局目录结构', link: '/docs/structures/layouts' },
 		{ text: '工具函数目录结构', link: '/docs/structures/utils' },
-		{ text: 'API接口', link: '/docs/structures/apis' },
+		{ text: 'API接口', link: '/apis/public/' },
 	],
 })
 

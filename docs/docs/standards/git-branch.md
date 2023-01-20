@@ -5,7 +5,7 @@
 ```text
 <类型>-<功能>-<人员>-<来源>
 
-例：feat-comment_api-miao-develop
+例：feature-comment_api-miao-develop
 例：bugfix-comment_api-miao-release_v0.2.0
 特殊：release-v0.2.0
 ```
@@ -13,7 +13,6 @@
 ## 分支规范
 
 - main\[唯一\]\[tag\]：主分支，用于版本持续发布，必须是随时可使用的
-- docs\[唯一\]：文档分支，用于展示项目文档
 - develop\[唯一\]：开发分支，即日常迭代使用的开发分支，用于日常开发持续集成
 - feature：特性分支，用于日常开发时切出分支进行单功能开发
 - bugfix：故障修补分支，通常用于修复故障
