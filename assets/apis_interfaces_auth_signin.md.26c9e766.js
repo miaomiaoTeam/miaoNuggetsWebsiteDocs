@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.4b2a50e9.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"apis/interfaces/auth/signin.md","lastUpdated":1674221253000}'),s={name:"apis/interfaces/auth/signin.md"};function n(r,i,c,o,p,d){return a(),t("div")}const m=e(s,[["render",n]]);export{f as __pageData,m as default};

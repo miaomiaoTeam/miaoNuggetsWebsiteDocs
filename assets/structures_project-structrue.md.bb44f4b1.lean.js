@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as a,a as p}from"./app.509c06fa.js";const d=JSON.parse('{"title":"总体结构","description":"","frontmatter":{},"headers":[],"relativePath":"structures/project-structrue.md"}'),l={name:"structures/project-structrue.md"},e=p("",2),o=[e];function c(t,r,A,C,i,y){return a(),n("div",null,o)}const u=s(l,[["render",c]]);export{d as __pageData,u as default};
