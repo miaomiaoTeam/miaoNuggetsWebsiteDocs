@@ -24,5 +24,10 @@ export default defineConfig({
 				link: 'https://github.com/miaomiaoTeam/miaoNuggetsWebsiteDocs',
 			},
 		],
+		editLink: {
+			pattern:
+				'https://github.com/miaomiaoTeam/miaoNuggetsWebsiteDocs/tree/main/docs/:path',
+			text: '在Github上编辑此页面',
+		},
 	},
 })
