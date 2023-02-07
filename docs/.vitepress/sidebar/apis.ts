@@ -22,9 +22,16 @@ sidebar.push({
 			text: '账户',
 			link: '/apis/interfaces/auth/',
 			items: [
-				{ text: '登录', link: '/apis/interfaces/auth/signin' },
-				{ text: '注册', link: '/apis/interfaces/auth/signup' },
-				{ text: '登出', link: '/apis/interfaces/auth/signout' },
+				{ text: '管理员', link: '/apis/interfaces/auth/admin' },
+				{ text: '用户', link: '/apis/interfaces/auth/user' },
+			],
+		},
+		{
+			text: '标签',
+			link: '/apis/interfaces/label/',
+			items: [
+				{ text: '顶部选项卡', link: '/apis/interfaces/label/tabs' },
+				{ text: '可关注标签', link: '/apis/interfaces/label/follow' },
 			],
 		},
 	],

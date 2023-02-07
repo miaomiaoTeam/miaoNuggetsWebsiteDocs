@@ -1,17 +1,23 @@
 {
-  "name": "miao-nuggets-docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "1.0.0-alpha.36"
-  }
+	"name": "miao-nuggets-docs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:serve": "vitepress serve docs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"sass": "^1.58.0",
+		"vitepress": "1.0.0-alpha.36"
+	},
+	"dependencies": {
+		"vite": "^4.1.1",
+		"vue": "^3.2.47"
+	}
 }
