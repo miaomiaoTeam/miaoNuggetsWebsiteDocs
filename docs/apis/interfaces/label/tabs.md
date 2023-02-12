@@ -1,6 +1,6 @@
 # 顶部选项卡
 
-## 列表 <Badge type="info" text="GET" /> <Badge type="warning" text="开发中" />
+## 列表 <Badge type="info" text="GET" /> <Badge type="tip" text="已完成" />
 
 - 描述：获取所有顶部选项卡
 - 接口：`/api/label/tabs/list`
@@ -20,10 +20,10 @@
     | show | boolean | <Badge type="tip" text="√" /> | 是否在顶部选项卡列表显示 |
     | menu | boolean | <Badge type="tip" text="√" /> | 是否在手机菜单列表显示 |
     | id | number | <Badge type="tip" text="√" /> | 序号 |
-    | reviser | string | <Badge type="tip" text="√" /> | 修订者 |
-    | lasttime | Date | <Badge type="tip" text="√" /> | 修订日期 |
+    | create_time | Date | <Badge type="tip" text="√" /> | 创建时间 |
+    | update_time | Date | <Badge type="tip" text="√" /> | 修订时间 |
 
-## 编辑 <Badge type="info" text="POST" /> <Badge type="warning" text="开发中" />
+## 编辑 <Badge type="info" text="POST" /> <Badge type="tip" text="已完成" />
 
 - 描述：编辑指定选项卡信息
 - 接口：`/api/label/tabs/:id`
@@ -47,9 +47,10 @@
   - 正常响应<Badge type="tip" text="0" />:
     | 参数 | 类型 | 必需 | 说明 |
     | :--: | :--: | :--: | :--- |
-    | lasttime | Date | <Badge type="tip" text="√" /> | 修订日期 |
+    | update_time | Date | <Badge type="tip" text="√" /> | 修订时间 |
+  - 传入表单条目缺失<Badge type="tip" text="11000" />: 无
 
-## 新增 <Badge type="info" text="PUT" /> <Badge type="warning" text="开发中" />
+## 新增 <Badge type="info" text="PUT" /> <Badge type="tip" text="已完成" />
 
 - 描述：新增选项卡
 - 接口：`/api/label/tabs/new`
@@ -70,9 +71,11 @@
   - 正常响应<Badge type="tip" text="0" />:
     | 参数 | 类型 | 必需 | 说明 |
     | :--: | :--: | :--: | :--- |
-    | lasttime | Date | <Badge type="tip" text="√" /> | 修订日期 |
+    | id | number | <Badge type="tip" text="√" /> | 序号 |
+    | create_time | Date | <Badge type="tip" text="√" /> | 创建时间 |
+    | update_time | Date | <Badge type="tip" text="√" /> | 修订时间 |
 
-## 移除 <Badge type="info" text="DELETE" /> <Badge type="warning" text="开发中" />
+## 移除 <Badge type="info" text="DELETE" /> <Badge type="tip" text="已完成" />
 
 - 描述：移除指定选项卡
 - 接口：`/api/label/tabs/remove`
@@ -88,4 +91,4 @@
   - 正常响应<Badge type="tip" text="0" />:
     | 参数 | 类型 | 必需 | 说明 |
     | :--: | :--: | :--: | :--- |
-    | lasttime | Date | <Badge type="tip" text="√" /> | 修订日期 |
+    | update_time | Date | <Badge type="tip" text="√" /> | 修订时间 |

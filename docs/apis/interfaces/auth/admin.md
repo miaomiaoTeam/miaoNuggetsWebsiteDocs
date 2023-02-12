@@ -1,9 +1,9 @@
 # 管理员
 
-## 登录 <Badge type="info" text="POST" /> <Badge type="warning" text="开发中" />
+## 登录 <Badge type="info" text="POST" /> <Badge type="tip" text="已完成" />
 
 - 描述：获取所有顶部选项卡
-- 接口：`/apis/interfaces/auth/admin`
+- 接口：`/apis/auth/admin/signin`
 - 认证：<Badge type="tip" text="x" />
 - 权限：<Badge type="tip" text="none" />
 - 传入参数
@@ -19,11 +19,12 @@
     | :--: | :--: | :--: | :--- |
     | access | <MTypesToken /> | <Badge type="tip" text="√" /> | 账号 |
     | refresh | <MTypesToken /> | <Badge type="tip" text="√" /> | 昵称 |
+  - 用户名或密码错误<Badge type="tip" text="12000" />: 无
 
-## 获取信息 <Badge type="info" text="GET" /> <Badge type="warning" text="开发中" />
+## 获取信息 <Badge type="info" text="GET" /> <Badge type="tip" text="已完成" />
 
 - 描述：获取所有顶部选项卡
-- 接口：`/apis/interfaces/auth/admin`
+- 接口：`/apis/auth/admin/info`
 - 认证：<Badge type="danger" text="√" />
 - 权限：<Badge type="tip" text="admin" />
 - 传入参数
@@ -37,12 +38,13 @@
     | nickname | string | <Badge type="tip" text="√" /> | 昵称 |
     | role | `admin` | <Badge type="tip" text="√" /> | 角色 |
     | id | number | <Badge type="tip" text="√" /> | 序号 |
-    | createtime | Date | <Badge type="tip" text="√" /> | 创建日期 |
+    | create_time | Date | <Badge type="tip" text="√" /> | 创建时间 |
+    | update_time | Date | <Badge type="tip" text="√" /> | 修订时间 |
 
-## 登出 <Badge type="info" text="HEAD" /> <Badge type="warning" text="开发中" />
+## 登出 <Badge type="info" text="POST" /> <Badge type="tip" text="已完成" />
 
 - 描述：获取所有顶部选项卡
-- 接口：`/apis/interfaces/auth/admin`
+- 接口：`/apis/auth/admin/logout`
 - 认证：<Badge type="danger" text="√" />
 - 权限：<Badge type="tip" text="admin" />
 - 传入参数
