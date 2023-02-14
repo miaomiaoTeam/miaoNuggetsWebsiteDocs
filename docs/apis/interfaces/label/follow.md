@@ -2,7 +2,7 @@
 
 ## 列表 <Badge type="info" text="GET" /> <Badge type="tip" text="已完成" />
 
-- 描述：获取所有顶部选项卡
+- 描述：获取所有可关注标签
 - 接口：`/api/label/follow/list`
 - 认证：<Badge type="tip" text="x" />
 - 权限：<Badge type="tip" text="none" />
@@ -25,7 +25,7 @@
 
 ## 编辑 <Badge type="info" text="POST" /> <Badge type="tip" text="已完成" />
 
-- 描述：编辑指定选项卡信息
+- 描述：编辑指定标签信息
 - 接口：`/api/label/follow/:id`
 - 认证：<Badge type="danger" text="√" />
 - 权限：<Badge type="tip" text="admin" />
@@ -49,7 +49,7 @@
 
 ## 新增 <Badge type="info" text="PUT" /> <Badge type="tip" text="已完成" />
 
-- 描述：新增选项卡
+- 描述：新增标签
 - 接口：`/api/label/follow/new`
 - 认证：<Badge type="danger" text="√" />
 - 权限：<Badge type="tip" text="admin" />

@@ -13,6 +13,10 @@ export default defineConfig({
 			{ text: '文档', link: '/docs/', activeMatch: '/docs/' },
 			{ text: '接口', link: '/apis/', activeMatch: '/apis/' },
 			{
+				text: 'ApiFox',
+				link: 'https://www.apifox.cn/apidoc/shared-d9128b38-16bd-4893-a883-78e4d3456b46',
+			},
+			{
 				text: '项目',
 				link: 'https://github.com/miaomiaoTeam/miaoNuggetsWebsite',
 			},

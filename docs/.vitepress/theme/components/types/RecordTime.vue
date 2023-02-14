@@ -1,12 +1,12 @@
 <template>
-	<Type label="Client.Token[]" :type="type" />
+	<Type label="DB.RecordTime" :type="type" />
 </template>
 
 <script lang="ts" setup>
 	import Type from './Type.vue'
 
 	const type = {
-		value: 'string',
-		expired: 'number',
+		key: 'string',
+		value: 'Date',
 	}
 </script>

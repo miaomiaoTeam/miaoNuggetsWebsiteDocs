@@ -33,7 +33,7 @@
   - params:
     | 参数 | 类型 | 必需 | 默认值 | 说明 |
     | :--: | :--: | :--: | :--: |:--- |
-    | id | number | <Badge type="tip" text="√" /> |  |序号 |
+    | id | number | <Badge type="tip" text="√" /> |  | 序号 |
   - body: <Badge type="warning" text="至少一项" />
     | 参数 | 类型 | 必需 | 默认值 | 说明 |
     | :--: | :--: | :--: | :--: | :--- |
